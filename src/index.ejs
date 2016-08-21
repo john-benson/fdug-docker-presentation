@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" class=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>FDUG Talk</title>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      
+    </div>
+  </div>
+</body>
+
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+<script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+<% } %>
+</html>
