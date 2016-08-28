@@ -5,7 +5,14 @@ Presentation Structure:
 - Intro (What is Docker - < 5 min) [use Docker slides?]
 - Problem - Solution Approach
 
-- 1. Run Unix-native software in non-Unix
+- 1. Run Unix-native software in non-Unix (John)
+  - Simplify the ramp up
+    - install Docker, install the image (basic commands), good to go
+    - vs; install VirtualBox, download Linux OS, install Linux OS, setup
+      Network Adapter, install redis through package manager
+  - Advantages
+    - Running the same OS / Redis combo across multiple environments
+
   - eg. Run Redis-for-Linux on Windows machine
   - Use native virtualization technology of your machine
     (Mac/Windows/Linux/BSD) without configuration. Docker manages
@@ -40,10 +47,10 @@ Presentation Structure:
   - ...
   - Demo!
 
-- 8. Debugging exactly what's in production
+- 8. Debugging exactly what's in production (John)
   - Use same Docker image as prod to reproduce problem
   - Copy prod data via Docker volumes and 'docker commit' to local dev
     environment for debugging.
   - Demo!
 
-- 9. 
+- 9.
