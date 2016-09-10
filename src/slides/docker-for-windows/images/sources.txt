@@ -1,0 +1,1 @@
+docker_header1.png: http://devops.com/2014/10/16/microsoft-partners-docker-bring-containers-windows-server/
